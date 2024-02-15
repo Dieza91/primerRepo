@@ -1,0 +1,742 @@
+         /*.top-container 
+        {
+            background-color: #FD7E3E;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .content 
+        {
+            padding: 16px;
+        }
+        
+        .sticky + .content 
+        {
+            padding-top: 102px;
+        }
+        
+        #titulo
+        {
+            padding-top: 320px;
+            background-color: #f1f1f1;
+        }
+        */
+        *
+        {
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+        }
+        @font-face 
+        {
+            font-family: "Akashi";
+            src: url(../fonts/akashi.ttf);
+        }
+        /*---------------Header---------------*/
+        header 
+        {   
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            justify-content: space-evenly;
+            background: #FD7E3E;
+            color: #f1f1f1;
+            width:100%;
+            height: 100%;
+            border-bottom: 5px solid white;
+            position:relative;
+            z-index:2;
+            font-weight:bold;
+          /*border-radius: 100%; (se forma un ovalo)*/
+        }
+        .sticky 
+        {
+            position: sticky;
+            z-index: 2;
+            top: 0;
+            width: 100%;
+        }
+        #roboFrogLogo
+        {
+            width: 350px;
+            padding-top: 10px;
+            padding-bottom:5px;
+            
+        }
+        ul
+        {
+            display:flex;
+            list-style-type: none;
+            text-align: right;
+            overflow-x:hidden;
+        }
+        li
+        {
+            font-family: 'Akashi', Courier, monospace;
+            font-weight:bold;
+            font-style: normal;
+            display:inline;
+            margin-right:30px;
+        }
+        h1
+        {
+            display:flex;
+            white-space: nowrap;
+            min-width: 0;
+            font-family: 'Akashi', Courier, monospace;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: left;
+            margin-left:30px;
+        }
+        footer
+        {
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            text-align: center;
+            color: #f1f1f1;
+            background-color: #FD7E3E;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #eslogan
+        {
+
+            font-family: 'Akashi', Courier, monospace;
+            font-size: 20px;
+            font-weight: bold;
+            font-style: normal;
+            padding-bottom:10px;
+            
+        }
+        /*---------------Footer---------------*/
+        .footerLine
+        {
+            width: 5%;
+            height: 5%;
+            max-width: 100%;
+
+        }
+        .social
+        {
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+        .facebook
+        {
+            height: 25px;
+            padding-right:5px;
+        }
+        .instagram
+        {
+            height: 25px;
+            padding-right:5px;
+        }
+        .x
+        {
+            height: 25px;
+        }
+        .email
+        {
+            height: 40px;
+        }
+        .copiryght
+        {
+            text-align: center;
+            font-size: 18px;
+            padding-right: 15px;
+            padding-left: 8px;
+            padding-top:5px;
+            padding-bottom:5px;
+            flex-shrink: 0;
+        }
+        /*---------------Body---------------*/
+        body 
+        {
+            margin: 0;
+            font-family: "Akashi", Arial, Helvetica, sans-serif;
+            overflow-x: hidden;
+            background-color: #f1f1f1;
+        }
+        html 
+        {
+            scroll-behavior: smooth;
+        }
+        .indexPage
+        {
+            display:flex;
+            flex-direction:row;
+            background-color: #7ED957;
+        }
+        .textIndexPage
+        {
+            padding-top: 1px;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            justify-content: space-evenly;
+            color: #f1f1f1;
+            width:100%;
+            height: 100%;
+            margin-top:auto;
+            padding-bottom:100px;
+        }
+        .logoIndex
+        {
+            padding-top: 1px;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            justify-content: space-evenly;
+        }
+        #robofrogIndexLogo
+        {
+            margin-left:auto;
+            max-height: 670px; /* Set your desired height */
+            height: auto; /* Allow the image to scale proportionally */
+            width: auto; /* Allow the image to scale proportionally */
+        }
+        p
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 32px;
+            margin-left:30px;
+            margin-right:30px;
+            margin-top:auto;
+        }
+        .center
+        {
+            height: 10%;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .indexHeader
+        {
+            padding-top: 100px;
+        }
+        a
+        {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 24px;
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none;
+            color:#f1f1f1;
+        }
+        .headerContainer
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align:center;
+            margin-left:90px;
+        }
+        nav 
+        {
+            display: flex;
+            align-items: center;
+        }
+        /*#indexHeader 
+        {
+            transform: rotate(-90deg);
+            white-space: nowrap;
+            transform-origin: left top;
+            margin-left:-180px;
+            margin-top:180px;
+            padding-top: 190px;
+        }
+        */
+        h2
+        {
+            background:#7ED957;
+            color:#f1f1f1;
+        }
+        .textInLine 
+        {
+            padding-bottom:100vh;
+            background:#FD7E3E;
+            color:#f1f1f1;
+            font-size: 28px; 
+            width: 40px;
+        }
+        .projectsTextInLine
+        {
+            transform: rotate(-90deg);
+            transform-origin: left top;
+            text-align: left;
+            margin-top:180px;
+            margin-left:10px;
+        }
+        .aboutTextInLine
+        {
+            transform: rotate(-90deg);
+            transform-origin: left top;
+            text-align: left;
+            margin-top:180px;
+            margin-left:10px;
+        }
+        .contactTextInLine
+        {
+            transform: rotate(-90deg);
+            transform-origin: left top;
+            text-align: left;
+            margin-top:180px;
+            margin-left:10px;
+        }
+        .Social img 
+        {
+            min-width: 20px; /* Adjust the minimum width as needed */
+            min-height: 20px; /* Adjust the minimum height as needed */
+            max-width: 100%;
+            flex-shrink: 0;
+            margin: 0 5px; /* Adjust the margin as needed */
+        }
+        .projectsIndex
+        {
+            display:flex;
+            flex-direction:row;
+            
+        }
+        h3
+        {
+            padding-left:30px;
+            color:black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .textGame1
+        {
+            margin-top:35px;
+            background-color:#7ED957;
+            height:275px;
+        }
+        .box
+        {
+            height:200px;
+            background:white;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        .grid
+        {
+            display:grid;
+            grid-template-columns: 40px 15% 67% 15%;
+            grid-template-rows: repeat(5, auto);
+            background:white;
+        }
+        #game1
+        {
+            width: 30%;
+            margin:auto;
+            border-radius: 20px; /* Esto hace que el borde se vuelva circular */
+            border: 4px solid #7ED957;
+            min-width: 400px;
+            position: relative;
+            transition: filter 0.3s ease;
+        }
+        .image-container {
+            position: relative;
+            display: inline-block; /* Ensure that the container only takes up necessary space */
+            margin: 20px; /* Adjust spacing between image containers */
+        }
+        #verMasButton {
+            position: absolute; /* Posiciona el botón absolutamente dentro del contenedor de la imagen */
+            bottom: 10px; /* Ajusta la posición vertical del botón */
+            right: 10px; /* Ajusta la posición horizontal del botón */
+            z-index: 1; /* Asegura que el botón esté sobre la imagen */
+            padding: 5px 10px; /* Ajusta el espaciado del botón */
+            background-color: transparent; /* Color de fondo */
+            color: white; /* Color del texto */
+            border: 2px solid white; 
+            border-radius: 5px; /* Redondea las esquinas */
+            cursor: pointer; /* Cambia el cursor al pasar por encima */
+            margin:15px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .image-container img {
+            width: 100%;
+            border-radius: 20px; /* Esto hace que el borde se vuelva circular */
+            border: 4px solid #7ED957;
+            transition: filter 0.3s ease;
+        }
+        
+        .image-container:hover img 
+        {
+            filter: brightness(50%) blur(2px); /* Adjust brightness to make the image darker */
+        }
+        
+        .image-container:hover .hover-text 
+        {
+            opacity: 0.85; /* Show the text when the container is hovered over */
+        }
+        .image-container:hover #verMasButton 
+        {
+            opacity: 0.85; /* Show the text when the container is hovered over */
+        }
+        
+        .hover-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white; /* Text color */
+            font-size: 18px; /* Text font size */
+            opacity: 0; /* Initially hide the text */
+            transition: opacity 0.3s ease; /* Smooth transition for opacity */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #game2
+        {
+            width: 30%;
+            margin:auto;
+            border-radius: 20px; /* Esto hace que el borde se vuelva circular */
+            border: 4px solid #7ED957;
+            min-width: 400px;
+            position: relative;
+            transition: filter 0.3s ease;
+        }
+        #game2:hover 
+        {
+            filter: brightness(35%)blur(2px); /* Adjust brightness to make the image darker */
+        }
+        #game2:hover::before 
+        {
+            content: ""; /* Create a pseudo-element to act as the overlay */
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #4B3F3B; /* Black color with 50% opacity */
+            transition: background-color 0.3s ease;
+        }
+        
+        .columnText
+        {
+            transform: rotate(-90deg);
+            padding-top: 35px;
+            color:white;
+            font-size:28px;
+        }
+        .combinedContainer
+        {
+            padding-top: 140px;
+            display: flex;
+            flex-direction:row;
+            background:white;
+            grid-column: 3 / span 1; /* El contenedor combinado ocupa la tercera columna */
+            grid-row: 1 / span 8; /* El contenedor combinado ocupa 5 filas */
+            justify-content: center;
+            align-items:center;
+            margin: auto; 
+            margin-top:0;
+            
+        }
+        .combinedContainer1
+        {
+            padding-top: 50px;
+            display: flex;
+            flex-direction:column;
+            background:white;
+            grid-column: 3 / span 1; /* El contenedor combinado ocupa la tercera columna */
+            grid-row: 1 / span 14; /* El contenedor combinado ocupa 5 filas */
+            align-items: center;
+            justify-content:center;
+        }
+        .box.b1, .box.b4, .box.b7, .box.b10, .box.b13, .box.b16, .box.b19, .box.b22, .box.b25, .box.b28, .box.b31, .box.b34, .box.b37, .box.b40,.box.b43, .box.b46, .box.b49, .box.b52
+        {
+            background: #7ED957;
+        }
+        #robofrogIndexLogo1
+        {
+            display:flex;
+            width:70%;
+            margin-top:-140px;
+            padding-bottom:40px;
+        }
+        .textAboutPage
+        {
+            background:#7ED957;
+            color:white;
+            font-size:28px;
+            border-radius: 20px;
+            text-align:center;
+            display:flex;
+        }
+        .textAboutPage p
+        {
+            padding-top:20px;
+            padding-bottom:20px;       
+        }
+        .firstBox
+        {
+            margin-right:auto;
+            position:relative;
+        }
+        .diegoContainer
+        {
+            position: relative;
+            display: inline-block;
+        }
+        .textDiego
+        {
+            background:#7ED957;
+            color:white;
+            font-size:32px;
+            text-align: center;
+            border-radius: 180px;
+            margin-top:40px;
+            width: 100%;
+            height:250px;
+            display:flex;
+            flex:wrap;
+            flex-direction:row;
+            align-items:center;
+            outline: 4px dashed #FD7E3E;
+            margin-left:4px;
+            position:relative;
+        }
+        #imageDiego
+        {
+            height:400px;
+            margin-top:40px;
+            margin-left:-70px;
+        }
+        #zoomDiego
+        {
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            transform: translate(-50%, -50%);
+            width:322px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .firstBox:hover #zoomDiego {
+            opacity: 1;
+        }
+        .firstBox:hover #imageDiego {
+            filter: blur(3px); /* Adjust the blur radius as needed */
+        }        
+        /*---------------------------*/
+        .secondBox
+        {
+            margin-left: auto;
+            position:relative;
+        }
+        .joshuaContainer
+        {
+            position: relative;
+            display: inline-block;
+        }
+        .textJoshua
+        {
+            background:#7ED957;
+            color:white;
+            font-size:32px;
+            text-align: center;
+            border-radius: 180px;
+            margin-top:40px;
+            width: 100%;
+            height:250px;
+            display:flex;
+            flex:wrap;
+            flex-direction:row;
+            align-items:center;
+            outline: 4px dashed #FD7E3E;
+            margin-left:4px;
+            position:relative;
+        }
+        #imageJoshua
+        {
+            height:400px;
+            margin-top:40px;
+            margin-left:-70px;
+            margin-right:-70px;
+        }
+        
+        #zoomJoshua
+        {
+            position: absolute;
+            top:51%;
+            left:35%;
+            transform: translate(-50%, -50%);
+            width:315px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .secondBox:hover #zoomJoshua {
+            opacity: 1;
+        }
+        .secondBox:hover #imageJoshua {
+            filter: blur(3px); /* Adjust the blur radius as needed */
+        }    
+         /*---------------------------*/
+        .textDiego p
+        {
+            font-size:26px;
+            margin-right:200px;
+        }
+        .textJoshua p
+        {
+            font-size:26px;
+            padding-right:200px;
+        }
+        .contactMail
+        {
+            background:#FD7E3e;
+            color:white;
+            font-size:32px;
+            width: 100%;
+            height:500px;
+            display:flex;
+            flex-direction: row;
+            align-items:center;
+            text-align: center;
+            margin-top:150px;
+            border-radius:80px;
+            justify-content: space-between;
+        }
+        .contactInformation
+        {
+            width:45%;
+            margin-top:20px;
+            padding-left:80px;
+        }
+        .contactText
+        {
+            width:45%;
+            padding-right:80px;
+        }
+        .input-with-label 
+        {
+            position: relative;
+            margin-bottom: 20px; /* Add some space between inputs */
+        }
+    
+        .input-with-label label 
+        {
+            position: absolute;
+            top: 60%;
+            transform: translateY(-50%);
+            left: 10px;
+            pointer-events: none; /* Make sure label doesn't interfere with input */
+            color: #aaa; /* Optional: Adjust label color */
+            font-size: 14px; /* Optional: Adjust label font size */
+
+        }
+    
+        .input-with-label input
+        {
+            padding-left: 10px; /* Adjust padding to accommodate the label */
+            width: 100%; /* Make input full width */
+            height: 40px;
+        }
+        .input-with-label textarea 
+        {
+
+            width: 100%; /* Make input full width */
+            height: 240px;
+            display:flex;
+           
+
+        }
+        .contactText button 
+        {
+            padding: 5px 60px; /* Adjust padding to make the button bigger */
+        }
+        
+        @media (max-width: 1141px) 
+        {
+            h1 
+            {
+              display: none;
+            }
+            header 
+            {   
+                flex-direction: column;
+            }
+            ul
+            {
+                grid-column: span 3;
+            }
+            #roboFrogLogo 
+            {
+                grid-column: span 3;
+                max-width: none; /* Elimina la restricción de tamaño máximo al hacer wrap */
+            }
+            .footerLine
+            {
+                display:none;
+            }
+            .headerContainer
+            {
+                margin-right:90px;
+            }
+            .indexPage
+            {
+                flex-direction:column-reverse;
+                align-items: center;
+                justify-content: center;
+                text-align:center;
+            }
+            .textIndexPage
+            {
+                padding-bottom:30px;
+                padding-top:20px;
+            }
+            .combinedContainer
+            {
+                flex-direction:column;
+                padding-top:140px;
+            }
+            #robofrogIndexLogo1
+            {
+                margin-top:-570px;
+            }
+            .textGame1
+            {
+                padding-bottom: 20px;
+            }
+            p
+            {
+                font-size: 28px;
+            }
+            .textAboutPage
+            {
+                margin-top:-140px;
+            }
+            .textAboutPage p
+            {
+                font-size: 22px;   
+            }
+            #game1
+            {
+            min-width: 300px;
+            }
+            #game2
+            {
+            min-width: 300px;
+            }
+            .contactMail
+            {
+                flex-direction: column;
+            }
+            .combinedContainer1 {
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+    
